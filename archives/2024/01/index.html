@@ -1,150 +1,122 @@
 <!DOCTYPE html>
-<html lang="en" class="light">
+<html lang="zh">
 <head>
-  <meta charset="utf-8">
-  
-  <title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="google-site-verification" content="TZE0rZyIqLl10trYu3BWBWa1Vmz6HFwhb2OcNEK4u-s" />
+     <link rel="shortcut icon" href= /img/favicon.ico >
+    <title>
+        :)
+    </title>
+    <meta name="description" content= Hi！我是Crilwa，是一名Web安全学习者 😘 >
+    <meta name="keywords" content= web,security,hack,devsecops >
     
-    :)
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
+
     
-  </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  
-<script src="https://cdn.staticfile.org/prism/1.17.1/prism.min.js"></script>
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
 
-  
-<script src="https://cdn.staticfile.org/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
-
-  
-<link rel="stylesheet" href="/css/prism/material-light.css">
-
-  
-<link rel="stylesheet" href="/css/prism/material-dark.css">
-
-  
-<script src="https://cdn.staticfile.org/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
-
-  
-<link rel="stylesheet" href="https://cdn.staticfile.org/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.css">
-
-  
+    
 <link rel="stylesheet" href="/css/style.css">
 
-  
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Noto+Sans+SC:wght@300&display=swap.css">
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title=":)" type="application/atom+xml">
+</head>
+<body id="bodyx">
+    <div class="hd logodiv">
+    <img src="/img/lover-fotor-2024011023338.png" class="logopng" alt="logo">
+    <p class="logot">
+         :) 
+         <span class="logo_2"></span>
+        <h3 class="words" style="font-weight: bold;font-family: Georgia;"> 
+            风起于青萍之末，浪成于微澜之间。 
+        </h3>
+    </p>
+</div>
 
-  
-<link rel="stylesheet" href="/iconfont/iconfont.css">
+<div class="hd">
+    <ol class="breadcrumb">
+        
+            <li><a class="ba" href="/about">关于我👀</a></li>
+        
+            <li><a class="ba" target="_blank" rel="noopener" href="https://github.com/cri1wa">GitHub✨</a></li>
+        
+            <li><a class="ba" href="/img/mmqrcode1704894321940.png">联系我🥳</a></li>
+        
+    </ol>
+    <hr class="breadcrumbhr">
+</div>
+<div class="hd">
+    
+    
+        
+        
+            <div class="titlex">
+                <p><span class="jing"></span><span style="color: #6d9ee7;"> 公元</span> 
+                 2024年 🕛
+                </p>
+            </div>
+            
+        
+        <a class="flink" href="/2024/01/11/2023%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">
+            <div class="list">
+                <div class="postname">
+                    2023年终总结
+                </div>
+                <div class="posttime">
+                    January 11th
+                </div>
+            </div>
+        </a>
+    
+</div>
 
-<meta name="generator" content="Hexo 6.3.0"></head>
-<script>
-  function setIsNight(isNight) {
-    localStorage.setItem('isNight', isNight)
-  }
+    <div class="footer" id="footer">
+    <p><h4>Copyright © 2024 | Author: Crilwa | <a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">蜀ICP备2021016808号</a></h4>
+    <label class="el-switch el-switch-blue el-switch-sm" style="vertical-align: sub;">
+        <input type="checkbox" name="switch" id="update_style">
+        <span class="el-switch-style"></span>
+    </label>
+    <!--         <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1278548644'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1278548644%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script> -->
+</p>
+</div>
+<input type="hidden" id="web_style" value="light">
+<input type="hidden" id="valine_appid" value="NOsswOncKgc8HOxqo9oxIWlX-gzGzoHsz">
+<input type="hidden" id="valine_appKey" value="z1FihjWEbS8uIfUQdmCtK7zz">
 
-  function getIsNight() {
-    return localStorage.getItem('isNight')
-  }
+<script src="/libs/jquery.min.js"></script>
 
-  function switchTheme() {
-    let isNight = getIsNight()
-    if (isNight === 'false') {
-      document.documentElement.className = 'dark'
-      document.getElementsByClassName('theme-switcher')[0].textContent = '😴'
-      setIsNight('true')
-    } else {
-      document.documentElement.className = 'light'
-      document.getElementsByClassName('theme-switcher')[0].textContent = '😳'
-      setIsNight('false')
-    }
-  }
 
-  let isNight = getIsNight()
-  if (isNight == null) {
-    isNight = 'false'
-    setIsNight('false')
-  }
-  if (isNight === 'false') {
-    document.documentElement.className = 'light'
-  } else {
-    document.documentElement.className = 'dark'
-  }
-</script>
+<script src="/libs/highlight/highlight.pack.js"></script>
 
-<body>
-  <div class="show-area">
-    <header>
-  <ul class="nav">
-    <li class="nav-child">
-      <a href="/">首页</a>
-    </li>
-    <li class="nav-child">
-      <a href="/categories">分类</a>
-    </li>
-    <li class="nav-child">
-      <a href="/tags">标签</a>
-    </li>
-    <li class="nav-child">
-      <a href="/about">关于</a>
-    </li>
-    <li class="nav-child">
-      <a href="/collection">收藏</a>
-    </li>
-    <li class="nav-child">
-      <a href="/board">留言</a>
-    </li>
-  </ul>
-  <div class="theme-switcher" onclick="switchTheme()">😳</div>
-  <script>
-    if (isNight === 'false') {
-      document.getElementsByClassName('theme-switcher')[0].textContent = '😳'
-    } else {
-      document.getElementsByClassName('theme-switcher')[0].textContent = '😴'
-    }
-  </script>
-</header>
-    <main class="main-body">
-  <h2 class="blog-title">:)</h2>
-  <p class="blog-desc"></p>
-  <p class="blog-info">Web安全学习者 😘</p>
-  <h3 class="posts-header">Recent Posts</h3>
-  <ul class="post-list">
-  
-  <li class="post-list-child">
-    <div class="post-list-left">
-      <div class="post-list-symbol">🚩</div>
-      <a href="/2024/01/10/test-my-site/">test_my_site</a>
-    </div>
-    <span class="post-list-date">
-      2024-01-10
-    </span>
-  </li>
-  
-  <li class="post-list-child">
-    <div class="post-list-left">
-      <div class="post-list-symbol">🚩</div>
-      <a href="/2024/01/10/hello-world/">Hello World</a>
-    </div>
-    <span class="post-list-date">
-      2024-01-10
-    </span>
-  </li>
-  
-</ul>
-</main>
-    <footer>
-  <div class="footer-info">© 2018-2022 Crilwa | Powerd by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | Theme <a
-      target="_blank" rel="noopener" href="https://github.com/mizoreyo/hexo-theme-insnow">Insnow</a> | <a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">蜀ICP备20005398号</a></div>
-  <div class="footer-info">
-    <a class="footer-i" target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/mizoreyo/static/images/wechat.PNG"><i class="iconfont icon-wechat"></i></a>
-    <a class="footer-i" target="_blank" rel="noopener" href="https://github.com/mizoreyo"><i class="iconfont icon-github-fill"></i></a>
-    <a class="footer-i" href="/atom.xml"><i class="iconfont icon-rss"></i></a>
-    <a class="footer-i" href="mailto:mizoreyo@outlook.com"><i class="iconfont icon-mail"></i></a>
-  </div>
-</footer>
-  </div>
+<script src='//cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
+
+<script src="/js/js.js"></script>
+
+<style type="text/css">
+.v * {
+color: #698fca;
+}
+.v .vlist .vcard .vhead .vsys {
+color: #3a3e4a;
+}
+.v .vlist .vcard .vh .vmeta .vat {
+color: #638fd5;
+}
+.v .vlist .vcard .vhead .vnick {
+color: #6ba1ff;
+}
+.v a {
+color: #8696b1;
+}
+.v .vlist .vcard .vhead .vnick:hover {
+color: #669bfc;
+}
+</style>
+    <script type="text/javascript" color="173,174,173" opacity='1' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 </body>
-
-
 </html>
